@@ -1,0 +1,24 @@
+{
+  // VS Code Java launch configs
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Main (DB init)",
+      "request": "launch",
+      "mainClass": "Main"
+    },
+    {
+      "type": "java",
+      "name": "Run smartborrow (UI)",
+      "request": "launch",
+      "mainClass": "smartborrow"
+    },
+    {
+      "type": "java",
+      "name": "Run Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    }
+  ]
+}
